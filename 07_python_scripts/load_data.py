@@ -1,6 +1,6 @@
-# =================================
+# ==================================
 # Import Libraries
-# =================================
+# ==================================
 
 import os
 import pandas as pd
@@ -18,9 +18,9 @@ DATABASE_PORT ="5432"
 
 DATA_FOLDER = r"C:\Users\Siddharth Ganvir\Desktop\Data Analytics Capstone Project\01_raw_data"
 
-# ===================================
+# ==================================
 # Database Connection
-# ===================================
+# ==================================
 
 def connect_database():
 
@@ -45,9 +45,9 @@ def connect_database():
         print(e)
         return None
 
-# ===================================
+# ==================================
 # Get All CSV Filea
-# ===================================
+# ==================================
 
 def get_csv_files():
 
@@ -65,23 +65,23 @@ def get_csv_files():
     print(f"Found {len(csv_files)} CSV files.\n")
     return csv_files
 
-# ===================================
+# ==================================
 # Read First CSV
-# ===================================
+# ==================================
 
 def read_csv_file(file_path):
 
     df = pd.read_csv(file_path)
 
     print(f"Rows   :  {len(df)}")
-    print(f" Columns : {len(df.columns)}")
+    print(f"Columns : {len(df.columns)}")
 
     return df
 
 
-# ====================================
+# ==================================
 # Convert Data Types
-# ====================================
+# ==================================
 def transform_data(df):
 
     df["started_at"] = pd.to_datetime(df["started_at"])
@@ -106,9 +106,9 @@ def load_to_database(df,engine):
 
     print("Data successfully loaded into PostgreSQL! ")
 
-# ================================
+# ==================================
 # Processing CSV files
-# ================================
+# ==================================
 
 def process_files(engine,csv_files):
 

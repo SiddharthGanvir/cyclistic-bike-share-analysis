@@ -72,8 +72,15 @@ Using SQL, I looked at:
 - Hourly distribution
 ## Visualizations
 Charts built in Matplotlib cover total rides by rider type, average duration by rider type, bike type preference, monthly and weekly trends, hourly distribution, ride duration distribution, and seasonal trends.
-
-
+<img width="1280" height="616" alt="01_Distribution of rides by member type" src="https://github.com/user-attachments/assets/c786a662-089e-4282-8381-717cf91f9aaf" />
+<img width="1280" height="616" alt="02_Distribution of rides by bike type" src="https://github.com/user-attachments/assets/5d2466e2-f967-4776-b5ca-7dd456d99b89" />
+<img width="1280" height="616" alt="03_Average ride duration by member type" src="https://github.com/user-attachments/assets/ff23b62c-ee1b-4111-a040-3825dee11558" />
+<img width="1280" height="616" alt="04_Monthly ride trends" src="https://github.com/user-attachments/assets/de584826-8123-4d23-8f4e-f7b2e937b752" />
+<img width="1280" height="616" alt="05_Monthly ride trends by member type" src="https://github.com/user-attachments/assets/daf7c7fa-e019-4f60-9314-fad23b5d935a" />
+<img width="866" height="399" alt="06_Ride trends by day of week" src="https://github.com/user-attachments/assets/82356b98-b4a0-48cf-b50d-b6dfe4c64b6e" />
+<img width="1280" height="616" alt="07_Ride trends by day of week and member type" src="https://github.com/user-attachments/assets/7510a94c-7600-4824-a223-88ee3af40358" />
+<img width="1280" height="616" alt="08_Ride trends by hour of day" src="https://github.com/user-attachments/assets/2eb07abe-0b13-4803-b799-2bcbe564bfab" />
+<img width="1280" height="616" alt="09_Ride trends by hour of day and member type" src="https://github.com/user-attachments/assets/5c9e0ea0-3bcc-451d-aed0-fea83455245b" />
 
 ## Key Findings
 
